@@ -1,14 +1,26 @@
-layout_spectrum: 0.9569983
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.0455312
 color:
   saturation: 0
   brandStrength: 0.1006427
   lightness: 0
-  rhythmicContrast: 1
   brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
-typography_spectrum: 0.0455312
+    - '#03040E'
+    - '#FDFCFC'
+    - '#6D7681'
+    - '#FF9A01'
+    - '#B45301'
+  rhythmicContrast: 1
+layout_spectrum: 0.9569983
 name: "Joshua's Pie Mobile Wood Fired Pizza"
